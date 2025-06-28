@@ -10,9 +10,7 @@ header {
   color: #fff;
   padding: 2rem 0 1rem 0;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px 8px 0 0;
 }
 header h1 {
   font-family: 'Courier New', Courier, monospace;
@@ -44,9 +42,9 @@ nav a:hover {
   max-width: 900px;
   margin: 2rem auto;
   background: #fff;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.09);
   border-radius: 8px;
   padding: 2em;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.09);
 }
 h2 {
   color: #2e597a;
@@ -103,12 +101,9 @@ ul {
   padding: 1.2em 0 0.7em 0;
   font-size: 1em;
   margin: 2.5em auto 0 auto;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 0 0 8px 8px;
   max-width: 900px;
-  box-shadow: 0 0 0 2px #d0d5de, 0 2px 8px rgba(0,0,0,0.07);
-  border-left: 1px solid #bfc6d3;
-  border-right: 1px solid #bfc6d3;
+  box-shadow: 0 0 0 0 transparent, 0 2px 8px rgba(0,0,0,0.07);
 }
 @media (max-width: 1000px) {
   .container, .footer { max-width: 98vw; }
