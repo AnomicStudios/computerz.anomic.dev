@@ -1,13 +1,9 @@
 body {
   font-family: 'Segoe UI', Verdana, Arial, sans-serif;
-  background-color: #e7e9ef;
+  background-color: #f4f4f4;
   color: #222;
   margin: 0;
   padding: 0;
-}
-#page-bg {
-  background: #e7e9ef;
-  min-height: 100vh;
 }
 header {
   background: #233d4d;
@@ -45,16 +41,12 @@ nav a:hover {
   text-decoration: underline;
 }
 .container {
-  width: 900px;
-  max-width: 98vw;
-  margin: 3em auto 2em auto;
+  max-width: 900px;
+  margin: 2rem auto;
   background: #fff;
-  box-shadow: 0 0 0 2px #d0d5de, 0 4px 16px rgba(0,0,0,0.09);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.09);
   border-radius: 8px;
-  padding: 2em 3.5em;
-  min-height: 80vh;
-  border-left: 1px solid #bfc6d3;
-  border-right: 1px solid #bfc6d3;
+  padding: 2em;
 }
 h2 {
   color: #2e597a;
@@ -110,17 +102,16 @@ ul {
   text-align: center;
   padding: 1.2em 0 0.7em 0;
   font-size: 1em;
-  margin: 0 auto 0 auto;
+  margin: 2.5em auto 0 auto;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  width: 900px;
-  max-width: 98vw;
+  max-width: 900px;
   box-shadow: 0 0 0 2px #d0d5de, 0 2px 8px rgba(0,0,0,0.07);
   border-left: 1px solid #bfc6d3;
   border-right: 1px solid #bfc6d3;
 }
 @media (max-width: 1000px) {
-  .container, .footer { width: 98vw; padding-left: 1vw; padding-right: 1vw; }
+  .container, .footer { max-width: 98vw; }
 }
 @media (max-width: 600px) {
   .container { padding: 1em 0.3em; }
